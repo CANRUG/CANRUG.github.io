@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Canadian Regional User Gruop</title>
+    <title>Canadian Regional User Group</title>
     <link rel="stylesheet" href="simple.css">
 </head>
 <body>
@@ -13,9 +13,10 @@
         
         <!-- Navigation with ARIA landmark role and aria-label for screen readers -->
         <nav role="navigation" aria-label="Main Navigation">
-             <a href="#home" aria-current="page">Home</a>
-             <a href="#about">About</a>
-			 <a href="#contact">Contact</a>
+            <a href="#home" aria-current="page">Home</a>
+            <a href="#about">About</a>
+            <a href="#events">Events</a>
+            <a href="#contact">Contact</a>
         </nav>
     </header>
 
@@ -32,13 +33,23 @@
             <h2 id="about-heading">About CANRUG</h2>
             <p>CANRUG is the Ex Libris User Group of North America (ELUNA) regional user group for Canada. It serves as a forum for sharing information and expertise in the use of Ex Libris library products in Canada.</p>
         </section>
-		
+        
+        <!-- Events section with aria-labelledby -->
+        <section id="events" aria-labelledby="events-heading">
+            <h2 id="events-heading">Upcoming Events</h2>
+            <p>Details about upcoming events and meetings will be shared here to keep members informed and engaged.</p>
+        </section>
+
         <!-- Contact section with aria-labelledby -->
-		<section id="contact" aria-labelledby="contact-heading">
-			<h2 id="contact-heading">Contact Us</h2>
-			<p>CANRUG hosts a Basecamp site, which we use to share and communicate.</p>
-			<p><a href="https://forms.gle/FRcd41rJethD4w7L7" target="_blank" rel="noopener noreferrer" aria-label="Request to join the CANRUG and Basecamp. Opens in a new tab"> Request to join CANRUG Basecamp.</a></p>
-</section>
+        <section id="contact" aria-labelledby="contact-heading">
+            <h2 id="contact-heading">Contact Us</h2>
+            <p>CANRUG hosts a Basecamp site, which we use to share and communicate.</p>
+            <p>
+                <a href="https://forms.gle/FRcd41rJethD4w7L7" target="_blank" rel="noopener noreferrer" aria-label="Request to join CANRUG and Basecamp. Opens in a new tab">
+                    Request to join CANRUG Basecamp.
+                </a>
+            </p>
+        </section>
     </main>
 
     <!-- Footer section with ARIA landmark role -->
